@@ -19,6 +19,7 @@ Installation
 Bash
 # Clone the repository
 git clone https://github.com/wangxu777777/HSSD-mamba
+
 cd HSSD-mamba
 
 # (Optional) Install dependencies
