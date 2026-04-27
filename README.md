@@ -13,7 +13,7 @@ Core Libs: numpy 1.23.5, opencv-python 4.7.0.72, scikit-image 0.19.3
 Installation
 Bash
 # Clone the repository
-git clone https://github.com/wangxu777777/HSSD-mamba/HSSD-mamba
+git clone https://github.com/wangxu777777/HSSD-mamba
 cd HSSD-mamba
 
 # (Optional) Install dependencies
