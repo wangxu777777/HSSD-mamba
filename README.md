@@ -50,6 +50,6 @@ Bash
 # Test KLSG dataset with trained HSSD-mamba
 python test.py --session_name Test_HSSD-mamba_KLSG \
                --config KLSG/config \
-               --pretrained ./ckpt/SEGSID_KLSG.pth \
+               --pretrained ./ckpt/HSSD-mamba_KLSG.pth \
                --gpu 0
 
