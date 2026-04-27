@@ -6,8 +6,11 @@ Requirements
 Our experiments were conducted with the following environment:
 
 Python 3.9.15
+
 PyTorch 1.12.1
+
 CUDA Toolkit 11.3.1
+
 Core Libs: numpy 1.23.5, opencv-python 4.7.0.72, scikit-image 0.19.3
 
 Installation
@@ -32,6 +35,7 @@ python train.py --session_name train_HSSD-mamba_KLSG \
 python train.py --session_name train_HSSD-mamba_DEBRIS \
                 --config DEBRIS/config \
                 --gpu 0
+
 Note: Ensure your dataset is placed in ./dataset/prep/. You can specify --input_dir and --label_dir if they are not defined in the config file.
 
 Test
