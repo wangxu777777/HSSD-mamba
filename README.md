@@ -33,14 +33,11 @@ You can control detailed experimental configurations (e.g., loss function, epoch
 Bash
 # Train HSSD-mamba on the KLSG dataset (using GPU 0)
 python train.py --session_name train_HSSD-mamba_KLSG \
-                --config KLSG/config \
-                --gpu 0
+                --config KLSG/config 
 
 # Train HSSD-mamba on the DEBRIS dataset
 python train.py --session_name train_HSSD-mamba_DEBRIS \
-                --config DEBRIS/config \
-                --gpu 0
-
+                --config DEBRIS/config 
 Note: Ensure your dataset is placed in ./dataset/prep/. You can specify --input_dir and --label_dir if they are not defined in the config file.
 
 Test
@@ -50,6 +47,5 @@ Bash
 # Test KLSG dataset with trained HSSD-mamba
 python test.py --session_name Test_HSSD-mamba_KLSG \
                --config KLSG/config \
-               --pretrained ./ckpt/HSSD-mamba_KLSG.pth \
-               --gpu 0
+               --pretrained ./ckpt/HSSD-mamba_KLSG.pth 
 
